@@ -2,29 +2,28 @@
 	 background-color:rgb(135,206,235);
  }
 	
- 
-div p:first-child {
+ article p:first-child {
 	color:white;
 	background-color:black;
 }
 
-div p:last-child {
+article p:last-child {
 	color:red;
 }
 ul li {
-	
+	width:50%;
+	padding:10px;
 }
 
 ul li:first-child {
 	background-color:white;
 	width:50%;
-	padding:10px;
 	font-size:22px;
 }
 ul li:nth-child(2) {
 	background-color:gray;
-	width:50%;
-	padding:10px;
+	 
+	 
 }
 ul li:nth-child(3) {
 	background-color:pink;
@@ -38,7 +37,7 @@ ul li:nth-child(4) {
 }
 ul li:last-child {
 	background-color:white;
-	width:50%;
+	
 	padding:10px;
 	 font-size:22px;
 }
